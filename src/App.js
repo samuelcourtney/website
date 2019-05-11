@@ -6,25 +6,25 @@ import { contact } from './Containers/contact';
 import { nomatch } from './Containers/nomatch';
 import { Layout } from './Components/Layout';
 import { NavBar } from './Components/NavBar';
-
-//import { Jumbotron } from './components/Jumbotron';
+import { Jumbotron } from './Components/Jumbotron';
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <NavBar/>
-          <Layout>
-            <HashRouter>
-              <Switch>
-                <Route path='/' exact component={home}/>
-                <Route path='/about' exact component={about} />
-                <Route path='/contact' exact component={contact} />
-                <Route component={nomatch} />
-                </Switch>
-            </HashRouter>
-          </Layout>
-      </React.Fragment>
+          <Jumbotron/>
+            <Layout>
+              <HashRouter>
+                <Switch>
+                  <Route path='/' exact component={home}/>
+                  <Route path='/about' exact component={about} />
+                  <Route path='/contact' exact component={contact} />
+                  <Route component={nomatch} />
+                  </Switch>
+              </HashRouter>
+            </Layout>
+        </React.Fragment>
     );
   }
 }
