@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.34de6062.chunk.css",
-    "main.js": "/static/js/main.9ee73a3a.chunk.js",
-    "main.js.map": "/static/js/main.9ee73a3a.chunk.js.map",
+    "main.js": "/static/js/main.a551b82e.chunk.js",
+    "main.js.map": "/static/js/main.a551b82e.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.6a11f19a.chunk.js": "/static/js/2.6a11f19a.chunk.js",
     "static/js/2.6a11f19a.chunk.js.map": "/static/js/2.6a11f19a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3406b80f72d6bd299e90920bfbe76fae.js": "/precache-manifest.3406b80f72d6bd299e90920bfbe76fae.js",
+    "precache-manifest.2de6be0c84a1137df746888abb23830c.js": "/precache-manifest.2de6be0c84a1137df746888abb23830c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
-    "static/media/nature.jpg": "/static/media/nature.94214252.jpg"
+    "static/media/clouds.jpg": "/static/media/clouds.3ccfb9e1.jpg"
   }
 }
