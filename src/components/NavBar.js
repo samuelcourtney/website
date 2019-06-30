@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Styles = styled.div`
     .navbar {
-        background-color: #363537;
+        background-color: #364d37;
     }
     .navbar-brand, .navbar-nav .nav-link {
         color: #EAE8DC 
