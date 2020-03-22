@@ -6,14 +6,13 @@ import { contact } from './Containers/contact';
 import { nomatch } from './Containers/nomatch';
 import { Layout } from './Components/Layout';
 import { NavBar } from './Components/NavBar';
-import { Jumbotron } from './Components/Jumbotron';
+
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <NavBar/>
-          <Jumbotron/>
             <Layout>
               <HashRouter>
                 <Switch>
@@ -21,7 +20,7 @@ class App extends Component {
                   <Route path='/about' exact component={about} />
                   <Route path='/contact' exact component={contact} />
                   <Route component={nomatch} />
-                  </Switch>
+                </Switch>
               </HashRouter>
             </Layout>
         </React.Fragment>

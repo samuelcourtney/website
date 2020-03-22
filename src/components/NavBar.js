@@ -1,30 +1,45 @@
 import React from "react";
 import {Nav, Navbar} from "react-bootstrap";
 import styled from "styled-components";
+import './CustomNavbar.css';
+import logo from '../src_assets/SClogo.png';
 
 const Styles = styled.div`
     .navbar {
-        background-color: #364d37;
+        background-color: black;
+        z-index: 10000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+
     }
     .navbar-brand, .navbar-nav .nav-link {
-        color: #EAE8DC 
-
+        color: #D0D0D0; 
         &: hover{
-            color: #93A3B1;
+            color: white;
         }
+        &: focus{
+            color: grey;
+        }
+        
     }
+    
 `;
 
 export const NavBar = () => (
     <Styles>
         <Navbar expand = "lg">
-            <Navbar.Brand href="/"> Samuel Courtney </Navbar.Brand>
+            <Navbar.Brand href="/"> 
+                <a href="/#">
+                <img src={logo} style={{width:100, marginTop: -7}} alt="logo"/>
+                </a>
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Item><Nav.Link href = "/"> home </Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href = "/#/about"> about </Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href = "/#/contact"> contact </Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href = "/"> Home </Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link a href = "/#/about"> About Me</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href = "/#/contact"> Contact Info </Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
