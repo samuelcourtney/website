@@ -8,7 +8,6 @@ const Styles = styled.div`
     .navbar {
         background-color: black;
         z-index: 10000;
-        position: fixed;
         top: 0;
         width: 100%;
 
@@ -28,7 +27,7 @@ const Styles = styled.div`
 
 export const NavBar = () => (
     <Styles>
-        <Navbar expand = "lg">
+        <Navbar collapseOnSelect expand = "lg">
             <Navbar.Brand href="/"> 
                 <a href="/#">
                 <img src={logo} style={{width:100, marginTop: -7}} alt="logo"/>
