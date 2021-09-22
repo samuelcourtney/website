@@ -1,0 +1,71 @@
+nav.navbar, .navbar-default {
+    background-color: black !important;
+  }
+  
+  .navbar-default {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: white;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    color: white;
+    background-color: white;
+  }
+  
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+  }
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f0f0f0;
+    border: grey;
+    border-radius: .25rem;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: grey;
+}
+
+.navbar-nav {
+    float:none;
+    margin: right;
+    text-align: justify;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}  
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
