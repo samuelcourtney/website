@@ -30,7 +30,7 @@ export const NavBar = () => (
         <Navbar collapseOnSelect expand = "lg">
             <Navbar.Brand href="/"> 
                 <a href="/#">
-                <img src={logo} style={{width:100, marginTop: -7}} alt="logo"/>
+                <img src={logo} style={{width:150, marginTop: -7}} alt="logo"/>
                 </a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
