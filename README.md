@@ -1,5 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# samuelcourtney.me
+It's a work in progress. I change it up a bunch and test out new things I learn in here. I have made about 4 different sites now.
 
-## Basic Website
+Only domain I pay for at the moment so I just push the new projects.
 
-Repository for website
+> My new site currently includes HQ photos and navigation along with parallax scrollers (going for the Apple website feel). 
