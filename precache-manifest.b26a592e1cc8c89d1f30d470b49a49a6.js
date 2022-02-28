@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f3b92f95b4c8be7f573b06dbd19f16b",
+    "revision": "e07c7e09a9d8f6721f3dd1805ddf619d",
     "url": "/index.html"
   },
   {
-    "revision": "99f104eded29ec4be86c",
-    "url": "/static/css/main.1c70a8d0.chunk.css"
+    "revision": "19cb427d05658699879e",
+    "url": "/static/css/main.ffd009c4.chunk.css"
   },
   {
-    "revision": "fdc0791de752cbc39b8c",
-    "url": "/static/js/2.136cffb2.chunk.js"
+    "revision": "aec460fd3202d7f6246a",
+    "url": "/static/js/2.a3e91203.chunk.js"
   },
   {
-    "revision": "99f104eded29ec4be86c",
-    "url": "/static/js/main.c4e6d8bf.chunk.js"
+    "revision": "19cb427d05658699879e",
+    "url": "/static/js/main.adbd1575.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -32,11 +32,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SClogo.5d8ad283.png"
   },
   {
+    "revision": "afdb6279a1fe60a367ff2a10e8a2cc9e",
+    "url": "/static/media/SamuelCourtney.afdb6279.pdf"
+  },
+  {
     "revision": "934be93596ef3d3e335db3c08294a739",
     "url": "/static/media/formula.934be935.jpg"
   },
   {
     "revision": "10d9311937f2a542aa171f6cedb9fda2",
     "url": "/static/media/longboi.10d93119.jpeg"
+  },
+  {
+    "revision": "892803ca5444c6400fa5283d119387cc",
+    "url": "/static/media/sam1.892803ca.jpg"
+  },
+  {
+    "revision": "dc463619e9864ce1138f2fc225f0afd9",
+    "url": "/static/media/scr.dc463619.pdf"
   }
 ]);
