@@ -1,0 +1,9 @@
+**change to github domain
+
+Samuels-MacBook-Pro:my-website samuelcourtney$ git remote remove origin
+Samuels-MacBook-Pro:my-website samuelcourtney$ git remote add origin https://github.com/samuelcourtney/website
+Samuels-MacBook-Pro:my-website samuelcourtney$ git commit -am "0.0.X"
+Samuels-MacBook-Pro:my-website samuelcourtney$ git push -f -u orgin master
+Samuels-MacBook-Pro:my-website samuelcourtney$ yarn run deploy
+
+**change back to samuelcourtney.me domain
