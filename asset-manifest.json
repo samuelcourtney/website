@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffd009c4.chunk.css",
-    "main.js": "/static/js/main.adbd1575.chunk.js",
-    "main.js.map": "/static/js/main.adbd1575.chunk.js.map",
+    "main.css": "/static/css/main.7823aaa0.chunk.css",
+    "main.js": "/static/js/main.262c0796.chunk.js",
+    "main.js.map": "/static/js/main.262c0796.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.a3e91203.chunk.js": "/static/js/2.a3e91203.chunk.js",
-    "static/js/2.a3e91203.chunk.js.map": "/static/js/2.a3e91203.chunk.js.map",
+    "static/js/2.859b8ba5.chunk.js": "/static/js/2.859b8ba5.chunk.js",
+    "static/js/2.859b8ba5.chunk.js.map": "/static/js/2.859b8ba5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b26a592e1cc8c89d1f30d470b49a49a6.js": "/precache-manifest.b26a592e1cc8c89d1f30d470b49a49a6.js",
+    "precache-manifest.363e86be1b2962e4c2b736706209f679.js": "/precache-manifest.363e86be1b2962e4c2b736706209f679.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ffd009c4.chunk.css.map": "/static/css/main.ffd009c4.chunk.css.map",
+    "static/css/main.7823aaa0.chunk.css.map": "/static/css/main.7823aaa0.chunk.css.map",
     "static/media/IMG_0001.jpeg": "/static/media/IMG_0001.ef24bf21.jpeg",
     "static/media/IMG_0222.jpg": "/static/media/IMG_0222.ad0916ba.jpg",
     "static/media/SClogo.png": "/static/media/SClogo.5d8ad283.png",
     "static/media/SamuelCourtney.pdf": "/static/media/SamuelCourtney.afdb6279.pdf",
     "static/media/formula.jpg": "/static/media/formula.934be935.jpg",
+    "static/media/header_sail_yacht_blue.jpg": "/static/media/header_sail_yacht_blue.7f5aea16.jpg",
     "static/media/longboi.jpeg": "/static/media/longboi.10d93119.jpeg",
-    "static/media/sam1.jpg": "/static/media/sam1.892803ca.jpg",
-    "static/media/scr.pdf": "/static/media/scr.dc463619.pdf"
+    "static/media/scr.pdf": "/static/media/scr.dc463619.pdf",
+    "static/media/talk_about_us.mp3": "/static/media/talk_about_us.533b178c.mp3"
   }
 }

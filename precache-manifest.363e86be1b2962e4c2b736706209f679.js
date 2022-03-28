@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e07c7e09a9d8f6721f3dd1805ddf619d",
+    "revision": "6e33164e3faae0e990f2a84cc1ffedbe",
     "url": "/index.html"
   },
   {
-    "revision": "19cb427d05658699879e",
-    "url": "/static/css/main.ffd009c4.chunk.css"
+    "revision": "2e7e857201feb568f508",
+    "url": "/static/css/main.7823aaa0.chunk.css"
   },
   {
-    "revision": "aec460fd3202d7f6246a",
-    "url": "/static/js/2.a3e91203.chunk.js"
+    "revision": "6503c72ccb85e510d0eb",
+    "url": "/static/js/2.859b8ba5.chunk.js"
   },
   {
-    "revision": "19cb427d05658699879e",
-    "url": "/static/js/main.adbd1575.chunk.js"
+    "revision": "2e7e857201feb568f508",
+    "url": "/static/js/main.262c0796.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -40,15 +40,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/formula.934be935.jpg"
   },
   {
+    "revision": "7f5aea16e821b465ca5fa4dff337cfd8",
+    "url": "/static/media/header_sail_yacht_blue.7f5aea16.jpg"
+  },
+  {
     "revision": "10d9311937f2a542aa171f6cedb9fda2",
     "url": "/static/media/longboi.10d93119.jpeg"
   },
   {
-    "revision": "892803ca5444c6400fa5283d119387cc",
-    "url": "/static/media/sam1.892803ca.jpg"
-  },
-  {
     "revision": "dc463619e9864ce1138f2fc225f0afd9",
     "url": "/static/media/scr.dc463619.pdf"
+  },
+  {
+    "revision": "533b178c06dfd2008e22700f55936614",
+    "url": "/static/media/talk_about_us.533b178c.mp3"
   }
 ]);
