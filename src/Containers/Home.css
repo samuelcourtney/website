@@ -3,25 +3,25 @@ h3 {
 }
 
 a:link {
-    color: green;
+    color: white;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
   }
   
   a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  
-  a:hover {
     color: red;
     background-color: transparent;
     text-decoration: underline;
   }
   
+  a:hover {
+    color: greenyellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
   a:active {
-    color: yellow;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
   }

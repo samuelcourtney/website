@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Jumbotron, Image} from 'react-bootstrap';
 import ReactAudioPlayer from 'react-audio-player';
 import styled from 'styled-components';
-import talkAboutUs from '../src_assets/talk_about_us.mp3';
+import talkAboutUs from '../src_assets/tbu.mp3';
 import sail from '../src_assets/header_sail_yacht_blue.jpg'
 import { Jumbotron as Jumbo} from "react-bootstrap";
 

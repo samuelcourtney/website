@@ -14,7 +14,6 @@ const Styles = styled.div`
 
 .jumbotron {
      background-color: rgb(0 0 0 / 90%);
-     filter: grayscale(100%);
      background-size: fill;
      color: #ffe;
      background-image: url("../img/jumbotron_bg.jpg");
@@ -78,17 +77,17 @@ export const home = () => (
         <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
 
         <div className = "Aapp">
-          <a href = {resumepdf} target = "_blank"><h2>📄 Resume</h2></a>
+        <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
         </div>
 
         <div className = "App">
-          <a href = {degreepdf} target = "_blank"><h2>🎓 Degree</h2></a>
+          <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
         </div>
 
 
 
-        <a href="#/about" class="button"><h2>📚 Studies</h2></a>
-        <a href="#/music" class="button"><h2>🎹 Music</h2></a>
+        <h2><a href="#/about" class="button">📚 Studies</a></h2>
+        <h2><a href="#/music" class="button">🎹 Music</a></h2>
       </div>
     </Jumbotron>
   </Styles>

@@ -6,7 +6,6 @@ const Styles = styled.div`
 
 .jumbotron {
      background-color: rgb(0 0 0 / 90%);
-     filter: grayscale(100%);
      background-size: fill;
      color: #ffe;
 
