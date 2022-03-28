@@ -1,11 +1,44 @@
 h3 {
-    color: yellow;
+    color: #00ff41;
 }
 
 h1 {
-    color: rgb(0, 255, 13);
+    color: #00ff41;
 }
 
 p{
     color: white;
 }
+
+h4 {
+    color: yellow;
+}
+
+h2{
+    color: white
+}
+
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:wheat;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
