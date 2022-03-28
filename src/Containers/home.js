@@ -73,19 +73,19 @@ export const home = () => (
         <div>
         <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
         </div>
-        <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 instagram</a></h2>
+        <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
 
         <div className = "Aapp">
-          <a href = {resumepdf} target = "_blank"><h2>📄 resume</h2></a>
+          <a href = {resumepdf} target = "_blank"><h2>📄 Resume</h2></a>
         </div>
 
         <div className = "App">
-          <a href = {degreepdf} target = "_blank"><h2>🎓 degree</h2></a>
+          <a href = {degreepdf} target = "_blank"><h2>🎓 Degree</h2></a>
         </div>
 
 
 
-        <a href="samuelcourtney.me/#/about" class="button"><h2>📚 studies</h2></a>
+        <a href="samuelcourtney.me/#/about" class="button"><h2>📚 Studies</h2></a>
         <h4>🎹 music (coming soon.)</h4>
         <h1></h1>
       </div>
