@@ -8,7 +8,7 @@ import resumepdf from '../src_assets/scr.pdf'
 import blackBackground1 from '../src_assets/IMG_0222.jpg';
 import formula from '../src_assets/formula.jpg';
 import Scroller from '../Components/Scroller';
-import sam from '../src_assets/sam1.jpg'
+import sam from '../src_assets/IMG_0001.jpeg'
 
 const Styles = styled.div`
 
@@ -17,16 +17,18 @@ const Styles = styled.div`
      filter: grayscale(100%);
      background-size: fill;
      color: #ffe;
+     background-image: url("../img/jumbotron_bg.jpg");
+    background-size: cover;
 
  }
 
  .img-thumbnail {
-  padding: 0.25rem;
+  padding: 0.1rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border: -4px solid #dee2e6;
+  border-radius: 20.25rem;
   max-width: 100%;
-  height: 343px;
+  height: 500px;
 }
  
  .overlay {
@@ -47,7 +49,7 @@ const Styles = styled.div`
 
 
  .rounded-circle {
-  border-radius: 11%!important;
+  border-radius: 3%!important;
 }
 
 .jumbotron {
@@ -61,19 +63,19 @@ export const home = () => (
 <React.Fragment>
 
 <Styles>
-  <Jumbo center>
+  <Jumbo className = "rellax" data-rellax-speed="-1" center>
     <Image src={sam} fluid thumbnail roundedCircle center justify-content="right"/>  
   </Jumbo>
 </Styles>
 
   <Styles>
-    <Jumbo>
-      <div>
-      <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
+    <Jumbotron>
+      <div className = "rellax" data-rellax-speed="-2">
+      <h2 ><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
         <div>
-        <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
+        <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
         </div>
-        <h2 className = "rellax" data-rellax-speed="-7"><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
+        <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
 
         <div className = "Aapp">
           <a href = {resumepdf} target = "_blank"><h2>📄 Resume</h2></a>
@@ -85,11 +87,10 @@ export const home = () => (
 
 
 
-        <a href="samuelcourtney.me/#/about" class="button"><h2>📚 Studies</h2></a>
-        <h4>🎹 music (coming soon.)</h4>
-        <h1></h1>
+        <a href="#/about" class="button"><h2>📚 Studies</h2></a>
+        <a href="#/music" class="button"><h2>🎹 Music</h2></a>
       </div>
-    </Jumbo>
+    </Jumbotron>
   </Styles>
 
 
@@ -136,11 +137,10 @@ export const home = () => (
   </div>
 */}
 
-{/* full page scrolling 
-
+{/*
 <Scroller>
   </Scroller> 
-*/}
+*/ }
 
   {/* this is to enable the rellax feature */}
 

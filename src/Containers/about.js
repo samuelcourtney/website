@@ -4,18 +4,10 @@ import Scroller from '../Components/Scroller';
 import { Jumbotron as Jumbo, Image} from "react-bootstrap";
 import styled from 'styled-components';
 import blackBackground from '../src_assets/IMG_0001.jpeg';
+import './about.css';
 
 
 const Styles = styled.div`
-
-
-.jumbo {
-     background-size: cover;
-     color: #000;
-     position: relative;
-     z-index: 9999;
-
- }
 
  .overlay {
      background-color: #000;
@@ -27,15 +19,31 @@ const Styles = styled.div`
      bottom: 0;
      z-index: -2;
  }
+
+.jumbotron {
+    color: white;
+    margin-bottom: 0;
+    background-color: black;
+    position: relative;
+    z-index: 9999;
+    background-color: black;
+    background-size: cover;
+
+}
+
+
 `;
 
 export const about = () => (
     <React.Fragment>
+            <Container>
+            <Styles>
+                <Jumbotron>
+                    
+                    <h1 align='bottom left'>>> samuelcourtney$ would like you to know...</h1> 
+                </Jumbotron>
                 
-    <Jumbo><h1 align='bottom left'>Samuel would like you to know...</h1> </Jumbo>
-    <div className="overlay"></div>
-                <Container>
-                <Jumbo className = "jumbo">
+                <Jumbotron>
                     <h1>I am a creative yet critical thinker that really enjoys data engineering as a whole 😎</h1>
                     <br></br>
                     <h3>ECE Major from The University of Alabama - Roll Tide! 🐘</h3>
@@ -53,11 +61,11 @@ export const about = () => (
                     <h3>I am a DBA! Been avoiding select * from production since 2021</h3>
                     id recommend using a select top(10) * instead, cheers.
                     
-                    </Jumbo>
-                </Container>
-
-               
-    <Scroller>
+                </Jumbotron>
+                </Styles>
+            </Container>
+     
+     <Scroller>
     </Scroller>
     {/*
         <div className="rellax">

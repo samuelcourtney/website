@@ -37,6 +37,7 @@ export const NavBar = () => (
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Item><Nav.Link href = "/"> Home </Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href = "/#/music"> Music </Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link a href = "/#/about"> About Me</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href = "/#/contact"> Contact Info </Nav.Link></Nav.Item>
                 </Nav>

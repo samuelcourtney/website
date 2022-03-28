@@ -31,6 +31,7 @@ const Styles = styled.div`
 
 export const contact = () => (
     <Styles>
+        <Container>
         <Jumbotron>
     <div>
         <h1> Don't be shy!</h1> 
@@ -53,7 +54,9 @@ export const contact = () => (
     <div>
         <h7 className = "rellax" data-rellax-speed="-7"><a href = "https://twitter.com/samuelxjc"> 🐥: @samuelxjc</a></h7>
     </div>
+
     </Jumbotron>
+    </Container>
     </Styles>
  
 )
