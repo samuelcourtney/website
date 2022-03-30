@@ -3,25 +3,35 @@ h3 {
 }
 
 a:link {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:visited {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:hover {
-    color: greenyellow;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
-  a:active {
-    color: white;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:wheat;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  background-color: transparent;
+}

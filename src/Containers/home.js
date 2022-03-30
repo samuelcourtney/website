@@ -13,21 +13,47 @@ import sam from '../src_assets/IMG_0001.jpeg'
 const Styles = styled.div`
 
 .jumbotron {
-     background-color: rgb(0 0 0 / 90%);
-     background-size: fill;
-     color: #ffe;
-     background-image: url("../img/jumbotron_bg.jpg");
-    background-size: cover;
+  padding: 1rem 1rem;
+  /* margin-bottom: 2rem; */
+  background-color: black;
+  border-radius: 0.3rem;
+}
 
- }
+.text-center {
+    text-align: center!important;
+    background-color: black!important;
+}
 
+ a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:wheat;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
  .img-thumbnail {
-  padding: 0.1rem;
-  background-color: #fff;
-  border: -4px solid #dee2e6;
+
+  background-color: ##808080;
+  border: -4px solid #808080;
   border-radius: 20.25rem;
   max-width: 100%;
-  height: 500px;
+  height: 600px;
 }
  
  .overlay {
@@ -51,10 +77,11 @@ const Styles = styled.div`
   border-radius: 3%!important;
 }
 
-.jumbotron {
-  padding: 2px 1em;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
+.IN {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 `;
 
@@ -62,24 +89,24 @@ export const home = () => (
 <React.Fragment>
 
 <Styles>
-  <Jumbo className = "rellax" data-rellax-speed="-1" center>
-    <Image src={sam} fluid thumbnail roundedCircle center justify-content="right"/>  
-  </Jumbo>
+<Jumbotron>
+    <Image src={sam} thumbnail roundedCircle justify-content="right"/>  
+    </Jumbotron>
 </Styles>
 
   <Styles>
     <Jumbotron>
-      <div className = "rellax" data-rellax-speed="-2">
+      <div className = "rellax" data-rellax-speed="1">
       <h2 ><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
         <div>
         <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
         </div>
         <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
-
+{/* 
         <div className = "Aapp">
         <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
         </div>
-
+*/}
         <div className = "App">
           <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
         </div>
@@ -136,10 +163,10 @@ export const home = () => (
   </div>
 */}
 
-{/*
+
 <Scroller>
   </Scroller> 
-*/ }
+
 
   {/* this is to enable the rellax feature */}
 

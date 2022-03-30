@@ -51,6 +51,8 @@ h1 {
      bottom: 0;
      z-index: -2;
  }
+
+ 
 `;
  
 export const music = () => (
@@ -74,7 +76,7 @@ export const music = () => (
                 <Image src={somf} fluid thumbnail/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
-                    <h2>story of my life, with love - jayce</h2>
+                    <h2>story of my life, with love</h2>
                     { /* <Image src={gut} thumbnail/>  */ }
                     <ReactAudioPlayer src={somf3} controls/>
                 </Jumbo>
