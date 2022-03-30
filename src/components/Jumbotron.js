@@ -7,7 +7,7 @@ const Styles = styled.div`
  .jumbo {
      background: url(${blackBackground}) no-repeat center;
      background-size: cover;
-     color: #000;
+     color: #ffe;
      position: relative;
      z-index: -2;
 
