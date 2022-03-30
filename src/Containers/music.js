@@ -3,9 +3,12 @@ import { Container, Jumbotron, Image} from 'react-bootstrap';
 import ReactAudioPlayer from 'react-audio-player';
 import styled from 'styled-components';
 import talkAboutUs from '../src_assets/tbu.mp3';
+
+
 import sail from '../src_assets/header_sail_yacht_blue.jpg'
 import { Jumbotron as Jumbo} from "react-bootstrap";
-
+import somf from '../src_assets/somf.png';
+import somf3 from '../src_assets/somf.mp3';
 const Styles = styled.div`
 
 .jumbotron {
@@ -66,6 +69,16 @@ export const music = () => (
                     { /* <Image src={gut} thumbnail/>  */ }
                     <ReactAudioPlayer src={talkAboutUs} controls/>
                 </Jumbo>
+
+                <div>
+                <Image src={somf} fluid thumbnail/> 
+                </div>
+                <Jumbo className = "jumbotron"> 
+                    <h2>story of my life, with love - jayce</h2>
+                    { /* <Image src={gut} thumbnail/>  */ }
+                    <ReactAudioPlayer src={somf3} controls/>
+                </Jumbo>
+
 
             </React.Fragment>
         </Styles>
