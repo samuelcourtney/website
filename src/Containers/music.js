@@ -3,8 +3,7 @@ import { Container, Jumbotron, Image} from 'react-bootstrap';
 import ReactAudioPlayer from 'react-audio-player';
 import styled from 'styled-components';
 import talkAboutUs from '../src_assets/tbu.mp3';
-
-
+import './music.css';
 import sail from '../src_assets/header_sail_yacht_blue.jpg'
 import { Jumbotron as Jumbo} from "react-bootstrap";
 import somf from '../src_assets/somf.png';
@@ -69,7 +68,17 @@ export const music = () => (
                 </Jumbotron>
                 
                 <div>
-                <Image src={utsp} fluid thumbnail/> 
+                <Image src={nasa} fluid/> 
+                </div>
+                <Jumbo className = "jumbotron"> 
+                    <h2>trapped.toSelf();</h2>
+                    { /* <Image src={gut} thumbnail/>  */}
+                    <ReactAudioPlayer src={tts3} controls/>
+                </Jumbo> 
+                
+
+                <div>
+                <Image src={utsp} fluid/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
                     <h2>up to something - jayce</h2>
@@ -78,7 +87,7 @@ export const music = () => (
                 </Jumbo>
 
                 <div>
-                <Image src={sail} fluid thumbnail/> 
+                <Image src={sail} fluid/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
                     <h2>talk about us? - jayce</h2>
@@ -86,15 +95,7 @@ export const music = () => (
                     <ReactAudioPlayer src={talkAboutUs} controls/>
                 </Jumbo>
                 
-                <div>
-                <Image src={nasa} fluid thumbnail/> 
-                </div>
-                <Jumbo className = "jumbotron"> 
-                    <h2>trapped.toSelf();</h2>
-                    { /* <Image src={gut} thumbnail/>  */}
-                    <ReactAudioPlayer src={tts3} controls/>
-                </Jumbo> 
-                
+
 
             </React.Fragment>
         </Styles>

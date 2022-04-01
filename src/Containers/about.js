@@ -6,7 +6,9 @@ import styled from 'styled-components';
 import blackBackground from '../src_assets/IMG_0001.jpeg';
 import './about.css';
 import degreepdf from '../src_assets/SamuelCourtney.pdf';
-import resumepdf from '../src_assets/scr.pdf'
+import resumepdf from '../src_assets/scr.pdf';
+import Links from "../Components/Links";
+import sun from '../src_assets/sun.gif'
 
 const Styles = styled.div`
 
@@ -133,7 +135,7 @@ export const about = () => (
                     <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                     <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                     <h3>I am a DBA! Been avoiding select * from production since 2021</h3>
-                    <h5> id recommend using a select top(10) [some_col(s)] instead, cheers. </h5>
+                    <h5> id recommend using a select top(int) [some_col(s)] .. instead, cheers. 🍻</h5>
                     </div>
     <Styles>
     <Jumbotron className="rellax" data-rellax-speed="5" z>
@@ -150,45 +152,29 @@ export const about = () => (
     </Scroller>
   
     <Styles>  
-<Jumbotron className = "jumbo">
-
-        <div>
-        <h2> Thanks for reading! check out these cool pages too:</h2>
-        <br></br><br></br>
-       <h2><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
-        <div>
-        <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
-        </div>
-        <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
-
-        <div className = "Aapp">
-        <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
-        </div>
-
-        <div className = "App">
-        <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
-        </div>
+       
 
 
-
-        <h2><a href="#/about" class="button">📚 Studies</a></h2>
-        <h2><a href="#/music" class="button">🎹 Music</a></h2>
-      </div>
-
-    </Jumbotron>
 
     <Styles>
         <Container>
             <Jumbotron>
-    <h4 align = 'right' className="rellax" data-rellax-speed="3">🌤</h4>
-    <h4 align = 'left' className="rellax" data-rellax-speed="3">you are here</h4>
+
+    <Styles>
+<Jumbotron>
+    <Image src={sun} roundedCircle justify-content="left"/>  
+    </Jumbotron>
+</Styles>
+    <h4 align = 'left' className="rellax" data-rellax-speed="3">you are here, keep going..</h4>
     <br></br>
     <h4 className="rellax" data-rellax-speed="3">&emsp;/</h4>
     <h4 className="rellax" data-rellax-speed="3" >🌎</h4>
     </Jumbotron>
     </Container>
     </Styles>
-
+    <p><b>This stuff is hot.. IT BURNS!</b><br></br>Thanks for reading! hope you enjoyed it. Check out these cool links too</p>
+    <Links>
+</Links>
     </Styles>
     {/*
         <div className="rellax">
