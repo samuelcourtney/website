@@ -83,16 +83,16 @@ export const music = () => (
                     { /* <Image src={gut} thumbnail/>  */ }
                     <ReactAudioPlayer src={talkAboutUs} controls/>
                 </Jumbo>
-
+                {/*
                 <div>
                 <Image src={somf} fluid thumbnail/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
                     <h2>story of my life, with love</h2>
-                    { /* <Image src={gut} thumbnail/>  */ }
+                    { /* <Image src={gut} thumbnail/>  
                     <ReactAudioPlayer src={somf3} controls/>
-                </Jumbo>
-
+                </Jumbo> 
+                */ }
 
             </React.Fragment>
         </Styles>
