@@ -12,7 +12,7 @@ import somf3 from '../src_assets/somf.mp3';
 import uts3 from '../src_assets/uts.mp3';
 import utsp from '../src_assets/chiraq.jpg';
 import tts3 from '../src_assets/tts_1.mp3';
-import ttsp from '../src_assets/ttsp.jpg';
+import ttsp from '../src_assets/nasa.jpeg';
 const Styles = styled.div`
 
 .jumbotron {
