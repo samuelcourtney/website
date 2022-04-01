@@ -87,7 +87,7 @@ export const music = () => (
                 </Jumbo>
                 
                 <div>
-                <Image src={ttsp} fluid thumbnail/> 
+                <Image src={nasa} fluid thumbnail/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
                     <h2>trapped.toSelf();</h2>
