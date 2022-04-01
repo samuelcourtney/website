@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47735d0fcaf0f6742be4071862176381",
+    "revision": "2bdc306a1dc9e79c6397b63a8e5c9060",
     "url": "/index.html"
   },
   {
-    "revision": "af2a9df115722386107b",
+    "revision": "96adfcc5d24a46536269",
     "url": "/static/css/main.1afee8a3.chunk.css"
   },
   {
-    "revision": "39924a04aa6a0f72e5b8",
-    "url": "/static/js/2.4caf8278.chunk.js"
+    "revision": "d55f27a043bfb1f0f64f",
+    "url": "/static/js/2.e501fe7a.chunk.js"
   },
   {
-    "revision": "af2a9df115722386107b",
-    "url": "/static/js/main.32ab2658.chunk.js"
+    "revision": "96adfcc5d24a46536269",
+    "url": "/static/js/main.ce1d14ad.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afdb6279a1fe60a367ff2a10e8a2cc9e",
     "url": "/static/media/SamuelCourtney.afdb6279.pdf"
+  },
+  {
+    "revision": "b8e03d3225bf0ed1e4c25793c1134927",
+    "url": "/static/media/chiraq.b8e03d32.jpg"
   },
   {
     "revision": "934be93596ef3d3e335db3c08294a739",
@@ -62,5 +66,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "67460c1de34facf63cc54c31a79dfc3f",
     "url": "/static/media/tbu.67460c1d.mp3"
+  },
+  {
+    "revision": "0245e23b5c710a3cf22f700e82dca631",
+    "url": "/static/media/uts.0245e23b.mp3"
   }
 ]);

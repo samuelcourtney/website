@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.1afee8a3.chunk.css",
-    "main.js": "/static/js/main.32ab2658.chunk.js",
-    "main.js.map": "/static/js/main.32ab2658.chunk.js.map",
+    "main.js": "/static/js/main.ce1d14ad.chunk.js",
+    "main.js.map": "/static/js/main.ce1d14ad.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.4caf8278.chunk.js": "/static/js/2.4caf8278.chunk.js",
-    "static/js/2.4caf8278.chunk.js.map": "/static/js/2.4caf8278.chunk.js.map",
+    "static/js/2.e501fe7a.chunk.js": "/static/js/2.e501fe7a.chunk.js",
+    "static/js/2.e501fe7a.chunk.js.map": "/static/js/2.e501fe7a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.366625657fd64e91e69098887de90acf.js": "/precache-manifest.366625657fd64e91e69098887de90acf.js",
+    "precache-manifest.7e69efa1d15031f793912fc8e4dd72d1.js": "/precache-manifest.7e69efa1d15031f793912fc8e4dd72d1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.1afee8a3.chunk.css.map": "/static/css/main.1afee8a3.chunk.css.map",
     "static/media/IMG_0001.jpeg": "/static/media/IMG_0001.ef24bf21.jpeg",
     "static/media/IMG_0222.jpg": "/static/media/IMG_0222.ad0916ba.jpg",
     "static/media/SClogo.png": "/static/media/SClogo.5d8ad283.png",
     "static/media/SamuelCourtney.pdf": "/static/media/SamuelCourtney.afdb6279.pdf",
+    "static/media/chiraq.jpg": "/static/media/chiraq.b8e03d32.jpg",
     "static/media/formula.jpg": "/static/media/formula.934be935.jpg",
     "static/media/header_sail_yacht_blue.jpg": "/static/media/header_sail_yacht_blue.7f5aea16.jpg",
     "static/media/longboi.jpeg": "/static/media/longboi.10d93119.jpeg",
     "static/media/scr.pdf": "/static/media/scr.dc463619.pdf",
     "static/media/somf.png": "/static/media/somf.4f2661ab.png",
     "static/media/somf.mp3": "/static/media/somf.fb2d5f67.mp3",
-    "static/media/tbu.mp3": "/static/media/tbu.67460c1d.mp3"
+    "static/media/tbu.mp3": "/static/media/tbu.67460c1d.mp3",
+    "static/media/uts.mp3": "/static/media/uts.0245e23b.mp3"
   }
 }
