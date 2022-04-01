@@ -23,6 +23,14 @@ const Styles = styled.div`
      z-index: -2;
  }
 
+ .fix_it{
+     height: 800px;
+ }
+
+ .rounded-circle{
+
+ }
+
 .jumbotron {
     color: white;
     margin-bottom: 0;
@@ -157,14 +165,17 @@ export const about = () => (
 
 
     <Styles>
-        <Container>
+        <Container className = "fix_it">
             <Jumbotron>
 
     <Styles>
-<Jumbotron>
-    <Image src={sun} roundedCircle justify-content="left"/>  
-    </Jumbotron>
+        <div>
+<Jumbotron fluid>
+    <Image src={sun} fluid roundedCircle justify-content="left"/>  
+</Jumbotron>
+</div>
 </Styles>
+
     <h4 align = 'left' className="rellax" data-rellax-speed="3">you are here, keep going..</h4>
     <br></br>
     <h4 className="rellax" data-rellax-speed="3">&emsp;/</h4>
