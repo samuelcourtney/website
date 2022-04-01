@@ -1,9 +1,13 @@
 h3 {
-    color: wheat;
+    color: white;
+}
+
+h2{
+  color: white;
 }
 
 a:link {
-  color: wheat;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }

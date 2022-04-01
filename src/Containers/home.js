@@ -25,7 +25,7 @@ const Styles = styled.div`
 }
 
  a:link {
-  color: white;
+  color: wheat;
   background-color: transparent;
   text-decoration: none;
 }
@@ -97,7 +97,7 @@ export const home = () => (
   <Styles>
     <Jumbotron>
       <div className = "rellax" data-rellax-speed="1">
-      <h2 ><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
+      <h2><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
         <div>
         <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
         </div>
@@ -107,13 +107,10 @@ export const home = () => (
         <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
         </div>
 */}
-        <div className = "App">
+        <div>
           <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
         </div>
 
-
-
-        <h2><a href="#/about" class="button">📚 Studies</a></h2>
         <h2><a href="#/music" class="button">🎹 Music</a></h2>
       </div>
     </Jumbotron>

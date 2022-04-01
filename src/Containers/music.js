@@ -11,6 +11,8 @@ import somf from '../src_assets/somf.png';
 import somf3 from '../src_assets/somf.mp3';
 import uts3 from '../src_assets/uts.mp3';
 import utsp from '../src_assets/chiraq.jpg';
+import tts3 from '../src_assets/tts.mp3';
+import ttsp from '../src_assets/ttsp.jpg';
 const Styles = styled.div`
 
 .jumbotron {
@@ -83,16 +85,16 @@ export const music = () => (
                     { /* <Image src={gut} thumbnail/>  */ }
                     <ReactAudioPlayer src={talkAboutUs} controls/>
                 </Jumbo>
-                {/*
+                
                 <div>
-                <Image src={somf} fluid thumbnail/> 
+                <Image src={ttsp} fluid thumbnail/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
-                    <h2>story of my life, with love</h2>
-                    { /* <Image src={gut} thumbnail/>  
-                    <ReactAudioPlayer src={somf3} controls/>
+                    <h2>trapped.toSelf();</h2>
+                    { /* <Image src={gut} thumbnail/>  */}
+                    <ReactAudioPlayer src={tts3} controls/>
                 </Jumbo> 
-                */ }
+                
 
             </React.Fragment>
         </Styles>
