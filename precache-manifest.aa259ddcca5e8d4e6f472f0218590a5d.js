@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7aed1aa94ba62d24f896a4a5f67085b",
+    "revision": "8ce9caa5fe4ee61bdc88e4ab81dfb134",
     "url": "/index.html"
   },
   {
-    "revision": "210de47465cdc4548042",
+    "revision": "fc2d827ffcfe0f7054f8",
     "url": "/static/css/main.c8ae8108.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.12a1775c.chunk.js"
   },
   {
-    "revision": "210de47465cdc4548042",
-    "url": "/static/js/main.d3fbe4d0.chunk.js"
+    "revision": "fc2d827ffcfe0f7054f8",
+    "url": "/static/js/main.b04b01fa.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/longboi.10d93119.jpeg"
   },
   {
+    "revision": "50326ed2336f7ad178e414d3c6b9420b",
+    "url": "/static/media/nasa.50326ed2.jpeg"
+  },
+  {
     "revision": "dc463619e9864ce1138f2fc225f0afd9",
     "url": "/static/media/scr.dc463619.pdf"
   },
@@ -70,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f25a57b7611878cd2e8d788697b60fd",
     "url": "/static/media/tts_1.5f25a57b.mp3"
-  },
-  {
-    "revision": "718a55ae112ff91a5832ca747db0aa2a",
-    "url": "/static/media/ttsp.718a55ae.jpg"
   },
   {
     "revision": "0245e23b5c710a3cf22f700e82dca631",
