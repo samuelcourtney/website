@@ -24,7 +24,7 @@ const Styles = styled.div`
  }
 
  .fix_it{
-     height: 300px;
+     height: 400px;
  }
 
  .rounded-circle{
@@ -206,7 +206,7 @@ export const about = () => (
 
         <h2><a href="#/about" class="button">📚 Studies</a></h2>
         <h2><a href="#/music" class="button">🎹 Music</a></h2>
-        <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+        <br></br> <br></br>
       </div>
     </Container>
 </Jumbotron>
