@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d03f5b9cc481ec3f785bc014cb9145be",
+    "revision": "a116b37b97853e6f2b7afdcc12910ae1",
     "url": "/index.html"
   },
   {
-    "revision": "790b9a86979052e42eaf",
+    "revision": "d4ba9e094a41fa02201e",
     "url": "/static/css/main.93b23f1c.chunk.css"
   },
   {
-    "revision": "a24f7bac76888a51c63d",
-    "url": "/static/js/2.30f98566.chunk.js"
+    "revision": "f5eab68dfa1e5acae0ac",
+    "url": "/static/js/2.6a8eeec6.chunk.js"
   },
   {
-    "revision": "790b9a86979052e42eaf",
-    "url": "/static/js/main.686daa91.chunk.js"
+    "revision": "d4ba9e094a41fa02201e",
+    "url": "/static/js/main.a0126cf8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "afdb6279a1fe60a367ff2a10e8a2cc9e",
     "url": "/static/media/SamuelCourtney.afdb6279.pdf"
-  },
-  {
-    "revision": "8b1a9caa51072ef635b9f372b4835c2f",
-    "url": "/static/media/backgroundr.8b1a9caa.jpg"
   },
   {
     "revision": "b8e03d3225bf0ed1e4c25793c1134927",
