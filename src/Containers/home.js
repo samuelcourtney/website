@@ -1,7 +1,6 @@
 import React from 'react'
-import { Jumbotron, Container, Image, Row, Col,  Button} from 'react-bootstrap';
+import { Jumbotron as Jumbo, Container, Image, Row, Col, Jumbotron, Button} from 'react-bootstrap';
 import './Home.css';
-import Links from '../Components/Links';
 import styled from 'styled-components';
 import blackBackground from '../src_assets/longboi.jpeg';
 import degreepdf from '../src_assets/SamuelCourtney.pdf';
@@ -26,7 +25,7 @@ const Styles = styled.div`
 }
 
  a:link {
-  color: wheat;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -78,10 +77,6 @@ a:active {
   border-radius: 3%!important;
 }
 
-.make_wheat{
-  color: wheat;
-}
-
 .IN {
   margin: auto;
   width: 50%;
@@ -98,6 +93,31 @@ export const home = () => (
     <Image src={sam} thumbnail roundedCircle justify-content="right"/>  
     </Jumbotron>
 </Styles>
+
+  <Styles>
+    <Jumbotron>
+      <div className = "rellax" data-rellax-speed="1">
+      <h2 ><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
+        <div>
+        <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
+        </div>
+        <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
+{/* 
+        <div className = "Aapp">
+        <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
+        </div>
+*/}
+        <div className = "App">
+          <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
+        </div>
+
+
+
+        <h2><a href="#/about" class="button">📚 Studies</a></h2>
+        <h2><a href="#/music" class="button">🎹 Music</a></h2>
+      </div>
+    </Jumbotron>
+  </Styles>
 
 
 
@@ -146,9 +166,8 @@ export const home = () => (
 
 <Scroller>
   </Scroller> 
-<h2>📂 go wild and <em>explore</em> </h2>
-  <Links>
-</Links>
+
+
   {/* this is to enable the rellax feature */}
 
 {/* ADDING BLOBS 

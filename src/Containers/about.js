@@ -7,7 +7,7 @@ import blackBackground from '../src_assets/IMG_0001.jpeg';
 import './about.css';
 import degreepdf from '../src_assets/SamuelCourtney.pdf';
 import resumepdf from '../src_assets/scr.pdf';
-import Links from "../Components/Links";
+
 import sun from '../src_assets/sun.gif'
 
 const Styles = styled.div`
@@ -24,7 +24,7 @@ const Styles = styled.div`
  }
 
  .fix_it{
-     height: 800px;
+     height: 300px;
  }
 
  .rounded-circle{
@@ -183,9 +183,34 @@ export const about = () => (
     </Jumbotron>
     </Container>
     </Styles>
-    <p><b>This stuff is hot.. IT BURNS!</b><br></br>Thanks for reading! hope you enjoyed it. Check out these cool links too</p>
-    <Links>
-</Links>
+    
+<Jumbotron>
+    <Container>
+    <div className = "rellax" data-rellax-speed="-0.1">
+    <p><b>Sun, we've reached the end 🤠</b><br></br> Thanks for reading! hope you enjoyed it. Check out these cool links too</p>
+      <h2><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
+        <div>
+        <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
+        </div>
+        <h2><a href = "https://www.instagram.com/samuelxjc/?hl=en">📱 Instagram</a></h2>
+{/* 
+        <div className = "Aapp">
+        <h2><a href = {resumepdf} target = "_blank">📄 Resume</a></h2>
+        </div>
+*/}
+        <div className = "App">
+          <h2><a href = {degreepdf} target = "_blank">🎓 Degree</a></h2>
+        </div>
+
+
+
+        <h2><a href="#/about" class="button">📚 Studies</a></h2>
+        <h2><a href="#/music" class="button">🎹 Music</a></h2>
+        <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+      </div>
+    </Container>
+</Jumbotron>
+
     </Styles>
     {/*
         <div className="rellax">
