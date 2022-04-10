@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "342e0cbe78562bc37769825984d258ce",
+    "revision": "91e560608aff4d225327a48c004a971f",
     "url": "/index.html"
   },
   {
-    "revision": "5584f2e220c15bbc5396",
+    "revision": "8ea3e0f6d7a9052b2fdc",
     "url": "/static/css/main.93b23f1c.chunk.css"
   },
   {
-    "revision": "f5eab68dfa1e5acae0ac",
-    "url": "/static/js/2.6a8eeec6.chunk.js"
+    "revision": "37f5d538349a9edca1fa",
+    "url": "/static/js/2.0f739849.chunk.js"
   },
   {
-    "revision": "5584f2e220c15bbc5396",
-    "url": "/static/js/main.116ec55c.chunk.js"
+    "revision": "8ea3e0f6d7a9052b2fdc",
+    "url": "/static/js/main.68f23846.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f5aea16e821b465ca5fa4dff337cfd8",
     "url": "/static/media/header_sail_yacht_blue.7f5aea16.jpg"
+  },
+  {
+    "revision": "fbf86cf064129bb2294a28beb97ca3f8",
+    "url": "/static/media/ku.fbf86cf0.jpg"
+  },
+  {
+    "revision": "8b1d38bc7cb84f6739e0466748ce2dbd",
+    "url": "/static/media/ku3.8b1d38bc.mp3"
   },
   {
     "revision": "10d9311937f2a542aa171f6cedb9fda2",
