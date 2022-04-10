@@ -12,6 +12,8 @@ import uts3 from '../src_assets/uts.mp3';
 import utsp from '../src_assets/chiraq.jpg';
 import tts3 from '../src_assets/tts_1.mp3';
 import nasa from '../src_assets/nasa.jpeg';
+import ku from '../src_assets/ku.jpg';
+import ku3 from '../src_assets/ku3.mp3';
 const Styles = styled.div`
 
 .jumbotron {
@@ -66,6 +68,15 @@ export const music = () => (
                 <Jumbotron className = "jumbo">
                     <h1 align='center'>∰ music repo ∰</h1>
                 </Jumbotron>
+
+                <div>
+                <Image src={ku} fluid/> 
+                </div>
+                <Jumbo className = "jumbotron"> 
+                    <h2>know u - jayce</h2>
+                    { /* <Image src={gut} thumbnail/>  */}
+                    <ReactAudioPlayer src={ku3} controls/>
+                </Jumbo> 
                 
                 <div>
                 <Image src={nasa} fluid/> 
