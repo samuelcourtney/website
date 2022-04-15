@@ -8,7 +8,7 @@ import resumepdf from '../src_assets/scr.pdf'
 import blackBackground1 from '../src_assets/IMG_0222.jpg';
 import formula from '../src_assets/formula.jpg';
 import Scroller from '../Components/Scroller';
-import sam from '../src_assets/IMG_0001.jpeg'
+import sam from '../src_assets/us.png';
 
 const Styles = styled.div`
 
@@ -90,14 +90,14 @@ export const home = () => (
 
 <Styles>
 <Jumbotron>
-    <Image src={sam} thumbnail roundedCircle justify-content="right"/>  
+    <Image src={sam} thumbnail roundedCircle justify-content="left"/>  
     </Jumbotron>
 </Styles>
 
   <Styles>
     <Jumbotron>
       <div className = "rellax" data-rellax-speed="1">
-      <h2 ><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
+      <h2><a href = "https://github.com/samuelcourtney">💻 GitHub </a></h2>
         <div>
         <h2><a href = "https://www.linkedin.com/in/csamcourtney/">🔗 LinkedIn </a></h2>
         </div>

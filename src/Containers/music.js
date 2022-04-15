@@ -69,15 +69,7 @@ export const music = () => (
                     <h1 align='center'>∰ music repo ∰</h1>
                 </Jumbotron>
 
-                <div>
-                <Image src={ku} fluid/> 
-                </div>
-                <Jumbo className = "jumbotron"> 
-                    <h2>know u - jayce</h2>
-                    { /* <Image src={gut} thumbnail/>  */}
-                    <ReactAudioPlayer src={ku3} controls/>
-                </Jumbo> 
-                
+
                 <div>
                 <Image src={nasa} fluid/> 
                 </div>
@@ -87,6 +79,14 @@ export const music = () => (
                     <ReactAudioPlayer src={tts3} controls/>
                 </Jumbo> 
                 
+                <div>
+                <Image src={sail} fluid/> 
+                </div>
+                <Jumbo className = "jumbotron"> 
+                    <h2>talk about us? - jayce</h2>
+                    { /* <Image src={gut} thumbnail/>  */ }
+                    <ReactAudioPlayer src={talkAboutUs} controls/>
+                </Jumbo>
 
                 <div>
                 <Image src={utsp} fluid/> 
@@ -96,15 +96,15 @@ export const music = () => (
                     { /* <Image src={gut} thumbnail/>  */ }
                     <ReactAudioPlayer src={uts3} controls/>
                 </Jumbo>
-
+ 
                 <div>
-                <Image src={sail} fluid/> 
+                <Image src={ku} fluid/> 
                 </div>
                 <Jumbo className = "jumbotron"> 
-                    <h2>talk about us? - jayce</h2>
-                    { /* <Image src={gut} thumbnail/>  */ }
-                    <ReactAudioPlayer src={talkAboutUs} controls/>
-                </Jumbo>
+                    <h2>know u - jayce</h2>
+                    { /* <Image src={gut} thumbnail/>  */}
+                    <ReactAudioPlayer src={ku3} controls/>
+                </Jumbo> 
                 
 
 
