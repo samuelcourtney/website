@@ -8,7 +8,7 @@ import resumepdf from '../src_assets/scr.pdf'
 import blackBackground1 from '../src_assets/IMG_0222.jpg';
 import formula from '../src_assets/formula.jpg';
 import Scroller from '../Components/Scroller';
-import sam from '../src_assets/us.png';
+import sam from '../src_assets/IMG_0001.jpeg'
 
 const Styles = styled.div`
 
@@ -90,7 +90,7 @@ export const home = () => (
 
 <Styles>
 <Jumbotron>
-    <Image src={sam} thumbnail roundedCircle justify-content="left"/>  
+    <Image src={sam} thumbnail roundedCircle justify-content="right"/>  
     </Jumbotron>
 </Styles>
 
