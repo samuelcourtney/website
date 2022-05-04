@@ -14,6 +14,8 @@ import tts3 from '../src_assets/tts_1.mp3';
 import nasa from '../src_assets/nasa.jpeg';
 import ku from '../src_assets/ku.jpg';
 import ku3 from '../src_assets/ku3.mp3';
+import ae3 from '../src_assets/ae.mp3';
+import ae from '../src_assets/ae.jpg';
 const Styles = styled.div`
 
 .jumbotron {
@@ -77,6 +79,15 @@ export const music = () => (
                     <h2>trapped.toSelf();</h2>
                     { /* <Image src={gut} thumbnail/>  */}
                     <ReactAudioPlayer src={tts3} controls/>
+                </Jumbo> 
+
+                <div>
+                <Image src={ae} fluid/> 
+                </div>
+                <Jumbo className = "jumbotron"> 
+                    <h2>angel eyes - jayce</h2>
+                    { /* <Image src={gut} thumbnail/>  */}
+                    <ReactAudioPlayer src={ae3} controls/>
                 </Jumbo> 
                 
                 <div>
